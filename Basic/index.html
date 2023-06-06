@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- personal info -->
+    <label for="firstName">First Name:</label> <br />
+    <input type="text" id="firstName" />
+    <br />
+    <label for="lastName">Last Name:</label>
+    <br />
+    <input type="text" id="lastName" />
+    <br />
+    <label for="age">Your Age:</label>
+    <br />
+    <input type="text" id="age" />
+    <br />
+    <br />
+    <label for="jobLabel">Where do you work?</label><br /><br />
+    <select name="job" id="selectJob">
+      <option value=""></option>
+      <br />
+      <option id="jobIT">I work in IT</option>
+      <br />
+      <option id="jobHotels">I work in hospitality</option>
+      <br />
+      <option id="noJob">I don't work</option>
+      <br />
+    </select>
+
+    <button id="sendButton">Send</button>
+    <div id="valueFirstName"></div>
+    <div id="valueLastName"></div>
+    <div id="valueAge"></div>
+    <div id="jobResult"></div>
+    <br />
+    <br />
+
+    <!-- job section -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

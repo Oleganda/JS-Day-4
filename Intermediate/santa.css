@@ -1,0 +1,26 @@
+#main-container {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(3, 150px);
+        gap: 20px;
+        justify-content: center;  
+        background-color: green;
+}
+
+img {
+    width: 100px;
+}
+
+.santa {
+    visibility: visible;
+}
+
+button {
+    padding: 20px 0px;
+    font-size: xx-large;
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 100%;
+    cursor: pointer;
+}
